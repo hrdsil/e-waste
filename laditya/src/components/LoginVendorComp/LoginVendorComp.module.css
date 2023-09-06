@@ -1,0 +1,135 @@
+.login {
+    padding-top: 6rem;
+    margin-bottom: 7rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    display: inline;
+    width: 50%;
+    background-color: #57C5B6;
+
+    font-size: var(--normal-font-size);
+    text-align: left;
+    color: white;
+
+    margin: 0 0 2rem 0;
+    padding: 1rem;
+    
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: #57CC99 0px 2px 5px -1px, #57CC99 0px 1px 3px -1px;
+
+    transition: .2s;
+}
+
+.heading:hover {
+    width: 60%;
+    background-color: #57CC99;
+}
+
+.heading:hover {
+    width: 60%;
+    background-color: #57CC99;
+}
+
+.formContainer {
+    width: 90vw;
+    height: 60vh;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.image {
+    height: 100%;
+}
+
+.form {
+    /* background-color: #57C5B6;
+    border-radius: 2rem;
+    box-shadow: #57CC99 0px 2px 5px -1px, #57CC99 0px 1px 3px -1px; */
+    
+    box-sizing: border-box;
+    padding: 0 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+}
+
+.inputwrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.label {
+    width: 200px;
+    color: black;
+    font-weight: bold;
+}
+
+.form__group {
+    margin-bottom: .2rem;
+}
+
+.form__email {
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    height: 3rem;
+    width: 300px;
+    padding: 0 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+
+    font-size: var(--normal-font-size);
+    font-family: var(--body-font);
+}
+
+.form__password {
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    height: 3rem;
+    width: 300px;
+    padding: 0 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+
+    font-size: var(--normal-font-size);
+    font-family: var(--body-font);
+}
+
+
+.form__submit {
+    box-sizing: border-box;
+    height: 3rem;
+    width: 100px;
+    padding: 0 1rem;
+    border: none;
+    border-radius: 10px;
+
+    background-color: #80ED99;
+
+    font-size: var(--normal-font-size);
+    font-family: var(--body-font); 
+}
+
+.form__submit:hover {
+    cursor: pointer;
+    background-color: #22577A;
+}

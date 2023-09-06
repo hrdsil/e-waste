@@ -1,0 +1,161 @@
+.ratePadding {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 12vh;
+}
+
+.rateContainer {
+    box-sizing: border-box;
+    width: 100%;
+    height: 88vh;
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.asideContainer {
+    box-sizing: border-box;
+    height: 100%;
+    display: block;
+    grid-row-start: 1;
+    grid-column: 1 / span 3;
+}
+
+.stickyContainer {
+    display: block;
+    position: sticky;
+    top: 10vh;
+    height: 80vh;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.filter {
+    font-size: var(--h3-font-size);
+    font-weight: bolder;
+    margin: 0;
+}
+
+.categoryContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.categoryTitle {
+    font-size: var(--h3-font-size);
+    font-weight: bolder;
+    margin-top: 2rem;
+}
+
+.categoryContent {
+    box-sizing: border-box;
+    padding: 5px 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    transition: .2s;
+}
+
+.icon {
+    font-size: 1.5rem;
+}
+
+.categoryContent:hover {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.subtitle {
+    color: #ccc;
+}
+
+.cardContainer {
+    box-sizing: border-box;
+    display: block;
+    padding: 1rem;
+    grid-row-start: 1;
+    grid-column: 4 / span 9;
+
+    overflow-y: scroll;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sortContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.sortContainer div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 5px 1rem;
+}
+
+.sortContainer div p {
+    margin: 0;
+}
+
+.productContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 2rem;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.imgContainer {
+    box-sizing: border-box;
+    height: 60%;
+    width: 100%;
+    background-color: red;
+    padding: 0;
+    border-radius: 5px;
+}
+
+.imgContainer img {
+    width: 100%;
+    height: 100%;
+}
+
+.descContainer {
+    box-sizing: border-box;
+    height: 40%;
+    padding: 1rem;
+}
+
+.price {
+    font-size: var(--h3-font-size);
+    font-weight: bolder;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

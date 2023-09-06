@@ -1,0 +1,156 @@
+.Container {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    margin: 2rem 0;
+    padding: 2rem 0;
+    background-image: linear-gradient(to bottom right, #E0E4FA, #57CC99);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header1 {
+    font-size: var(--big-font-size);
+    text-align: center;
+    margin: 0;
+}
+
+.header2 {
+    font-size: var(--normal-font-size);
+    text-align: center;
+    margin: 0;
+}
+
+.faq {
+    width: 90vw;
+    min-height: 70vh;
+    margin-top: 2rem;
+    background-image: linear-gradient(to bottom right, #E0E4FA, #c9f8e4);
+    border-radius: 2rem;
+    box-shadow: #57CC99 0px 2px 5px -1px, #57CC99 0px 1px 3px -1px;
+    position: absolute;
+    top: 25%;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.formContainer {
+    margin-top: 2rem;
+    width: 45vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.form {
+    height: 95%;
+    width: 500px;
+    background-color: #57C5B6;
+    border-radius: 2rem;
+    box-shadow: #57CC99 0px 2px 5px -1px, #57CC99 0px 1px 3px -1px;
+    
+    box-sizing: border-box;
+    padding: 0 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.formHeader {
+    font-size: var(--h2-font-size);
+    font-weight: bold;
+    margin: 2rem 0 0 0;
+}
+
+form div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0 .5rem 0;
+}
+
+form div p {
+    font-size: var(--normal-font-size);
+}
+
+.form__group {
+    margin-bottom: 1rem;
+}
+
+.form__email {
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    height: 3rem;
+    width: 300px;
+    padding: 0 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+
+    font-size: var(--normal-font-size);
+    font-family: var(--body-font);
+}
+
+.form__message {
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    height: 7rem;
+    width: 300px;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+
+    font-size: var(--normal-font-size);
+    font-family: var(--body-font);
+}
+
+.form__submit {
+    box-sizing: border-box;
+    height: 3rem;
+    width: 100px;
+    padding: 0 1rem;
+    border: none;
+    border-radius: 10px;
+
+    background-color: #80ED99;
+
+    font-size: var(--normal-font-size);
+    font-family: var(--body-font); 
+}
+
+.form__submit:hover {
+    cursor: pointer;
+    background-color: #22577A;
+}
+
+
+.questionsContainer {
+    margin-top: 2rem;
+    width: 45vw;
+    height: 100%;
+}
+
+.titleContainer {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: var(--h3-font-size);
+    font-weight: bolder;
+}
+
